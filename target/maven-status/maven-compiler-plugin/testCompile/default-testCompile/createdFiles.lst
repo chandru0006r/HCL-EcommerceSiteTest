@@ -1,1 +1,7 @@
-com\hcl\ecommerce\PepperFryTest.class
+com\hcl\ecommerce\utils\CookieUtil$CookieDTO.class
+com\hcl\ecommerce\utils\CookieUtil.class
+com\hcl\ecommerce\runners\TestRunner.class
+com\hcl\ecommerce\stepdefinitions\ProductSteps.class
+com\hcl\ecommerce\utils\SessionManager.class
+com\hcl\ecommerce\stepdefinitions\Hooks.class
+com\hcl\ecommerce\utils\CookieUtil$1.class

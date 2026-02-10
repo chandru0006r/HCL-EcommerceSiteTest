@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="PepperFry Suite">
-    <test name="PepperFry Test">
+    <test name="BDD Tests">
         <classes>
-            <class name="com.hcl.ecommerce.PepperFryTest"/>
+            <class name="com.hcl.ecommerce.runners.TestRunner"/>
         </classes>
     </test>
 </suite>

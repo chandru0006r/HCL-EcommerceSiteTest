@@ -1,1 +1,5 @@
-G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\PepperFryTest.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\runners\TestRunner.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\stepdefinitions\Hooks.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\stepdefinitions\ProductSteps.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\CookieUtil.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\SessionManager.java

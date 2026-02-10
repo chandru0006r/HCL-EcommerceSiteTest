@@ -28,6 +28,29 @@
         <scope>test</scope>
     </dependency>
     
+    <!-- Cucumber Java -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>7.18.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Cucumber TestNG -->
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-testng</artifactId>
+        <version>7.18.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Jackson Databind for JSON processing -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.17.0</version>
+    </dependency>
+
     <!-- Apache POI for Data Driven Testing (Optional but useful) -->
     <dependency>
         <groupId>org.apache.poi</groupId>
