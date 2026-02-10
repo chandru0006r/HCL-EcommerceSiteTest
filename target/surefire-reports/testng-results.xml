@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-10T23:32:53 IST" name="PepperFry Suite" finished-at="2026-02-10T23:32:59 IST" duration-ms="5479">
+    <groups>
+    </groups>
+    <test started-at="2026-02-10T23:32:53 IST" name="PepperFry Test" finished-at="2026-02-10T23:32:59 IST" duration-ms="5479">
+      <class name="com.hcl.ecommerce.PepperFryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.hcl.ecommerce.PepperFryTest@223f3642]" started-at="2026-02-10T23:32:53 IST" name="setup" finished-at="2026-02-10T23:32:56 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPepperFryTitle()[pri:0, instance:com.hcl.ecommerce.PepperFryTest@223f3642]" started-at="2026-02-10T23:32:56 IST" name="testPepperFryTitle" finished-at="2026-02-10T23:32:59 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPepperFryTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.ecommerce.PepperFryTest@223f3642]" started-at="2026-02-10T23:32:59 IST" name="tearDown" finished-at="2026-02-10T23:32:59 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.ecommerce.PepperFryTest -->
+    </test> <!-- PepperFry Test -->
+  </suite> <!-- PepperFry Suite -->
+</testng-results>
