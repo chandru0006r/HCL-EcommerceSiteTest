@@ -1,5 +1,12 @@
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\page\Homepage.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\page\ProductPage.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\page\ProductsListPage.java
 G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\runners\TestRunner.java
-G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\stepdefinitions\Hooks.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\stepdefinitions\HomeSteps.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\stepdefinitions\ProductsListPageSteps.java
 G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\stepdefinitions\ProductSteps.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\Tests\Runthrough.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\Base.java
 G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\CookieUtil.java
-G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\SessionManager.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\LocalStorageUtils.java
+G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\src\test\java\com\hcl\ecommerce\utils\WebDriverFactory.java

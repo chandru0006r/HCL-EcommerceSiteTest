@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-11T00:39:12 IST" name="PepperFry Suite" finished-at="2026-02-11T00:40:58 IST" duration-ms="106047">
+  <suite started-at="2026-02-13T00:17:56 IST" name="Surefire suite" finished-at="2026-02-13T00:18:36 IST" duration-ms="40373">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@4387b79e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-02-11T00:39:12 IST" name="BDD Tests" finished-at="2026-02-11T00:40:58 IST" duration-ms="106047">
+    <test started-at="2026-02-13T00:17:56 IST" name="Surefire test" finished-at="2026-02-13T00:18:36 IST" duration-ms="40373">
       <class name="com.hcl.ecommerce.runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:39:12 IST" name="setUpClass" finished-at="2026-02-11T00:39:13 IST" duration-ms="851" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@4387b79e]" started-at="2026-02-13T00:17:56 IST" name="setUpClass" finished-at="2026-02-13T00:17:57 IST" duration-ms="1740" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@b379bc6]]>
+                <![CDATA[org.testng.TestRunner@2e179f3e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:39:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:39:25 IST" duration-ms="12091" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify user session logic"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["01 Login Verification"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:39:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:39:41 IST" duration-ms="16109" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@4387b79e]" started-at="2026-02-13T00:17:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-13T00:18:11 IST" duration-ms="13663" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,14 +30,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Product Search & Filtering"]]>
+                <![CDATA["Product Search"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:39:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:39:56 IST" duration-ms="14955" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@4387b79e]" started-at="2026-02-13T00:18:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-13T00:18:23 IST" duration-ms="11576" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,98 +46,34 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Product Search & Filtering"]]>
+                <![CDATA["Product Search"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:39:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:40:09 IST" duration-ms="13093" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@4387b79e]" started-at="2026-02-13T00:18:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-13T00:18:36 IST" duration-ms="13175" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Filter products by price range"]]>
+                <![CDATA["Verify displayed product count matches the result range"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Product Search & Filtering"]]>
+                <![CDATA["Product Search"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:40:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:40:22 IST" duration-ms="12634" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Sort products by price low to high"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Product Search & Filtering"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:40:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:40:35 IST" duration-ms="13012" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify product details display"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Product Details Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:40:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:40:47 IST" duration-ms="12302" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify product image zoom functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Product Details Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:40:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-11T00:40:58 IST" duration-ms="10857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify out of stock product behavior"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Product Details Page"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@be64738]" started-at="2026-02-11T00:40:58 IST" name="tearDownClass" finished-at="2026-02-11T00:40:58 IST" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hcl.ecommerce.runners.TestRunner@4387b79e]" started-at="2026-02-13T00:18:36 IST" name="tearDownClass" finished-at="2026-02-13T00:18:36 IST" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.hcl.ecommerce.runners.TestRunner -->
-    </test> <!-- BDD Tests -->
-  </suite> <!-- PepperFry Suite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

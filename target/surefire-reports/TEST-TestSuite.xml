@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.246" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="80.233" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\SEC\AppData\Local\Temp\surefire14689834697047799\surefirebooter-20260211003911475_3.jar C:\Users\SEC\AppData\Local\Temp\surefire14689834697047799 2026-02-11T00-39-11_315-jvmRun1 surefire-20260211003911475_1tmp surefire_0-20260211003911475_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\SEC\AppData\Local\Temp\surefire9758632511605065881\surefirebooter-20260213000041342_3.jar C:\Users\SEC\AppData\Local\Temp\surefire9758632511605065881 2026-02-13T00-00-41_086-jvmRun1 surefire-20260213000041342_1tmp surefire_0-20260213000041342_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\target\test-classes;G:\My Drive\HCL training\Hands-on\HCL-EcommerceSiteTest\target\classes;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\SEC\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\SEC\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\SEC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SEC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SEC\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\SEC\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\SEC\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\SEC\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\SEC\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\SEC\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\SEC\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\SEC\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SEC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SEC\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\SEC\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\SEC\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\SEC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SEC\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\SEC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\SEC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\SEC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\SEC\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\SEC\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\SEC\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\SEC\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\SEC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SEC\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\SEC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\SEC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\SEC\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\SEC\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\SEC\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\SEC\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\SEC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\SEC\AppData\Local\Temp\surefire14689834697047799\surefirebooter-20260211003911475_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SEC\AppData\Local\Temp\surefire9758632511605065881\surefirebooter-20260213000041342_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -59,171 +59,94 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify user session logic&quot;, &quot;01 Login Verification&quot;](1)" classname="com.hcl.ecommerce.runners.TestRunner" time="12.096">
+  <testcase name="runScenario[&quot;Sort products by Newest&quot;, &quot;Product Filtering&quot;](1)" classname="com.hcl.ecommerce.runners.TestRunner" time="38.085">
+    <failure message="element click intercepted: Element is not clickable at point (1321, 856)&#10;  (Session info: chrome=144.0.7559.133)&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f9cc87ba16cc4cd420278a0101626f39, clickElement {id=f.4F037C3261A238F94B50C5A6747D87EC.d.07774B24AE05C3B6C85F10262FEFC44E.e.239}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\SEC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54085}, goog:processID: 39816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54085/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (f9cc87ba16cc4cd420278a0101626f39)] -&gt; css selector: div.dropdown-btn]&#10;Session ID: f9cc87ba16cc4cd420278a0101626f39" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (1321, 856)
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9cc87ba16cc4cd420278a0101626f39, clickElement {id=f.4F037C3261A238F94B50C5A6747D87EC.d.07774B24AE05C3B6C85F10262FEFC44E.e.239}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\SEC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54085}, goog:processID: 39816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54085/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9cc87ba16cc4cd420278a0101626f39)] -> css selector: div.dropdown-btn]
+Session ID: f9cc87ba16cc4cd420278a0101626f39
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.hcl.ecommerce.page.ProductsListPage.applySortNewest(ProductsListPage.java:137)
+	at com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.the_user_selects_sort_option_newest(ProductsListPageSteps.java:47)
+	at ✽.the user selects sort option 'Newest'(file:///G:/My%20Drive/HCL%20training/Hands-on/HCL-EcommerceSiteTest/src/test/resources/features/Product_filter.feature:7)
+]]></failure>
     <system-out><![CDATA[
-Scenario: Verify user session logic                             &amp#27;[90m# src/test/resources/features/01_Login.feature:3&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-Browser open, session init triggered by Hooks.
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe browser is open and session is initialized&amp#27;[0m          &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_browser_is_open_and_session_is_initialized()&amp#27;[0m
-Session cookie validation passed.
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be logged in with a valid session cookie&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_should_be_logged_in_with_a_valid_session_cookie()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
+Scenario: Sort products by Newest                        &amp#27;[90m# src/test/resources/features/Product_filter.feature:6&amp#27;[0m
+Initializing Fresh WebDriver...
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on a product listing page&amp#27;[0m            &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.the_user_is_on_a_product_listing_page()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mthe user selects sort option 'Newest'&amp#27;[0m             &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.the_user_selects_sort_option_newest()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1321, 856)
+  (Session info: chrome=144.0.7559.133)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f9cc87ba16cc4cd420278a0101626f39, clickElement {id=f.4F037C3261A238F94B50C5A6747D87EC.d.07774B24AE05C3B6C85F10262FEFC44E.e.239}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.133, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\SEC\AppData\Local\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54085}, goog:processID: 39816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54085/devtoo..., se:cdpVersion: 144.0.7559.133, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9cc87ba16cc4cd420278a0101626f39)] -> css selector: div.dropdown-btn]
+Session ID: f9cc87ba16cc4cd420278a0101626f39
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.hcl.ecommerce.page.ProductsListPage.applySortNewest(ProductsListPage.java:137)
+	at com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.the_user_selects_sort_option_newest(ProductsListPageSteps.java:47)
+	at ✽.the user selects sort option 'Newest'(file:///G:/My%20Drive/HCL%20training/Hands-on/HCL-EcommerceSiteTest/src/test/resources/features/Product_filter.feature:7)
+&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mproducts should be arranged in newest first order&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.products_should_be_arranged_in_newest_first_order()&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Feb 11, 2026 12:39:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 13, 2026 12:00:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:39:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 13, 2026 12:00:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Search product using valid keyword&quot;, &quot;Product Search &amp; Filtering&quot;](2)" classname="com.hcl.ecommerce.runners.TestRunner" time="16.105">
+  <testcase name="runScenario[&quot;Sort products by price low to high&quot;, &quot;Product Filtering&quot;](2)" classname="com.hcl.ecommerce.runners.TestRunner" time="38.473">
     <system-out><![CDATA[
-Scenario: Search product using valid keyword                 &amp#27;[90m# src/test/resources/features/02_ProductSearch.feature:3&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-User is on homepage
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the homepage&amp#27;[0m                          &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_is_on_the_homepage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters a valid product keyword in search bar&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_enters_a_valid_product_keyword_in_search_bar()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclicks search&amp#27;[0m                                          &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.clicks_search()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mrelevant product results should be displayed&amp#27;[0m          &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.relevant_product_results_should_be_displayed()&amp#27;[0m
-Verifying search keyword visibility...
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msearch keyword should be visible in results page&amp#27;[0m       &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.search_keyword_should_be_visible_in_results_page()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
+Scenario: Sort products by price low to high                &amp#27;[90m# src/test/resources/features/Product_filter.feature:10&amp#27;[0m
+Initializing Fresh WebDriver...
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on a product listing page&amp#27;[0m               &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.the_user_is_on_a_product_listing_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user selects sort option 'Price: Low to High'&amp#27;[0m    &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.the_user_selects_sort_option_price_low_to_high()&amp#27;[0m
+Verifying prices are ascending...
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproducts should be arranged in ascending price order&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductsListPageSteps.products_should_be_arranged_in_ascending_price_order()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:39:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Feb 13, 2026 12:01:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:39:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Search with no matching results&quot;, &quot;Product Search &amp; Filtering&quot;](3)" classname="com.hcl.ecommerce.runners.TestRunner" time="14.973">
-    <system-out><![CDATA[
-Scenario: Search with no matching results                   &amp#27;[90m# src/test/resources/features/02_ProductSearch.feature:10&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-User is on homepage
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the homepage&amp#27;[0m                         &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_is_on_the_homepage()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user searches for a non-existing product&amp#27;[0m         &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_searches_for_a_non_existing_product()&amp#27;[0m
-Verified 'No Results Found' behavior
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should display 'No Results Found' message&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_system_should_display_no_results_found_message()&amp#27;[0m
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msuggest alternative products or categories&amp#27;[0m            &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.suggest_alternative_products_or_categories()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:39:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:39:42 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Filter products by price range&quot;, &quot;Product Search &amp; Filtering&quot;](4)" classname="com.hcl.ecommerce.runners.TestRunner" time="13.075">
-    <system-out><![CDATA[
-Scenario: Filter products by price range                                   &amp#27;[90m# src/test/resources/features/02_ProductSearch.feature:16&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is viewing product listing page&amp#27;[0m                           &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_is_viewing_product_listing_page()&amp#27;[0m
-Filtering by price range...
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user selects a specific price range filter&amp#27;[0m                      &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_selects_a_specific_price_range_filter()&amp#27;[0m
-Verifying price range...
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should display only products within selected price range&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_system_should_display_only_products_within_selected_price_range()&amp#27;[0m
-Verifying result count update...
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mupdate result count dynamically&amp#27;[0m                                      &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.update_result_count_dynamically()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:39:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:39:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Sort products by price low to high&quot;, &quot;Product Search &amp; Filtering&quot;](5)" classname="com.hcl.ecommerce.runners.TestRunner" time="12.632">
-    <system-out><![CDATA[
-Scenario: Sort products by price low to high                &amp#27;[90m# src/test/resources/features/02_ProductSearch.feature:22&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on a product listing page&amp#27;[0m               &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_is_on_a_product_listing_page()&amp#27;[0m
-Sorting by Price: Low to High...
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user selects sort option 'Price: Low to High'&amp#27;[0m    &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_selects_sort_option_price_low_to_high()&amp#27;[0m
-Verifying sort order...
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproducts should be arranged in ascending price order&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.products_should_be_arranged_in_ascending_price_order()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:40:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:40:10 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify product details display&quot;, &quot;Product Details Page&quot;](6)" classname="com.hcl.ecommerce.runners.TestRunner" time="13.013">
-    <system-out><![CDATA[
-Scenario: Verify product details display                                &amp#27;[90m# src/test/resources/features/03_ProductDetails.feature:3&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user clicks on a product from listing page&amp#27;[0m                  &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_clicks_on_a_product_from_listing_page()&amp#27;[0m
-Verifying product details...
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mproduct title, price, description and images should be displayed&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.product_title_price_description_and_images_should_be_displayed()&amp#27;[0m
-Verifying specifications...
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mproduct specifications should be clearly visible&amp#27;[0m                  &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.product_specifications_should_be_clearly_visible()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:40:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:40:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify product image zoom functionality&quot;, &quot;Product Details Page&quot;](7)" classname="com.hcl.ecommerce.runners.TestRunner" time="12.303">
-    <system-out><![CDATA[
-Scenario: Verify product image zoom functionality &amp#27;[90m# src/test/resources/features/03_ProductDetails.feature:8&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on product detail page&amp#27;[0m        &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_is_on_product_detail_page()&amp#27;[0m
-Hovering over image...
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user hovers over product image&amp#27;[0m         &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_hovers_over_product_image()&amp#27;[0m
-Verifying zoom...
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mzoomed image preview should be displayed&amp#27;[0m   &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.zoomed_image_preview_should_be_displayed()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:40:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:40:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="runScenario[&quot;Verify out of stock product behavior&quot;, &quot;Product Details Page&quot;](8)" classname="com.hcl.ecommerce.runners.TestRunner" time="10.857">
-    <system-out><![CDATA[
-Scenario: Verify out of stock product behavior                     &amp#27;[90m# src/test/resources/features/03_ProductDetails.feature:13&amp#27;[0m
-Initializing Shared WebDriver...
-Attempting to load saved session...
-Cookies loaded successfully.
-Session valid. Continuing tests.
-Navigating to out-of-stock item (simulated)...
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on product detail page of an out-of-stock item&amp#27;[0m &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.the_user_is_on_product_detail_page_of_an_out_of_stock_item()&amp#27;[0m
-Verifying 'Out of Stock' message...
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m'Out of Stock' message should be displayed&amp#27;[0m                  &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.out_of_stock_message_should_be_displayed()&amp#27;[0m
-Verifying Add to Cart is disabled...
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mAdd to Cart button should be disabled&amp#27;[0m                        &amp#27;[90m# com.hcl.ecommerce.stepdefinitions.ProductSteps.add_to_cart_button_should_be_disabled()&amp#27;[0m
-All tests finished. Quitting Shared WebDriver...
-]]></system-out>
-    <system-err><![CDATA[Feb 11, 2026 12:40:48 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 144
-Feb 11, 2026 12:40:48 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+Feb 13, 2026 12:01:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 144.0.7559.133. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

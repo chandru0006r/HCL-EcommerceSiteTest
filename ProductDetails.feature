@@ -1,5 +1,8 @@
 Feature: Product Details Page
 
+  Background:
+     Given the user is logged in
+     
   Scenario: Verify product details display
     Given the user clicks on a product from listing page
     Then product title, price, description and images should be displayed

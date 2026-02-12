@@ -1,143 +1,77 @@
 package com.hcl.ecommerce.utils;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.util.Date;
 import java.util.Set;
-import java.util.HashSet;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.StringTokenizer;
 
 public class CookieUtil {
-    private static final String COOKIE_FILE_PATH = "src/test/resources/config/sessionCookies.json";
 
-    public static void saveCookies(WebDriver driver) {
-        Set<Cookie> cookies = driver.manage().getCookies();
-        ObjectMapper mapper = new ObjectMapper();
+    private static final String COOKIE_FILE_PATH = "src/test/resources/Cookies.data";
+
+    public static void saveCookiesToFile(WebDriver driver) {
+        File file = new File(COOKIE_FILE_PATH);
         try {
-            List<CookieDTO> cookieDTOs = new ArrayList<>();
-            for (Cookie cookie : cookies) {
-                CookieDTO dto = new CookieDTO();
-                dto.setName(cookie.getName());
-                dto.setValue(cookie.getValue());
-                dto.setDomain(cookie.getDomain());
-                dto.setPath(cookie.getPath());
-                dto.setExpiry(cookie.getExpiry());
-                dto.setSecure(cookie.isSecure());
-                dto.setHttpOnly(cookie.isHttpOnly());
-                cookieDTOs.add(dto);
-            }
+            file.delete();
+            file.createNewFile();
 
-            File file = new File(COOKIE_FILE_PATH);
-            file.getParentFile().mkdirs();
-            mapper.writeValue(file, cookieDTOs);
-            System.out.println("Cookies saved successfully to " + COOKIE_FILE_PATH);
-        } catch (IOException e) {
-            System.err.println("Failed to save cookies: " + e.getMessage());
+            FileWriter fileWriter = new FileWriter(file);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            for (Cookie cookie : driver.manage().getCookies()) {
+                bufferedWriter.write((cookie.getName() + ";" + cookie.getValue() + ";" + cookie.getDomain() + ";"
+                        + cookie.getPath() + ";" + cookie.getExpiry() + ";" + cookie.isSecure()));
+                bufferedWriter.newLine();
+            }
+            bufferedWriter.close();
+            fileWriter.close();
+            System.out.println("Session Cookies saved successfully!");
+
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 
-    public static boolean loadCookies(WebDriver driver) {
-        ObjectMapper mapper = new ObjectMapper();
-        File file = new File(COOKIE_FILE_PATH);
-        if (!file.exists()) {
-            System.out.println("No cookie file found at " + COOKIE_FILE_PATH);
-            return false;
-        }
-
+    public static void loadCookiesFromFile(WebDriver driver) {
         try {
-            List<CookieDTO> cookieDTOs = mapper.readValue(file, new TypeReference<List<CookieDTO>>() {
-            });
-            for (CookieDTO dto : cookieDTOs) {
-                Cookie cookie = new Cookie.Builder(dto.getName(), dto.getValue())
-                        .domain(dto.getDomain())
-                        .path(dto.getPath())
-                        .expiresOn(dto.getExpiry())
-                        .isSecure(dto.isSecure())
-                        .isHttpOnly(dto.isHttpOnly())
-                        .build();
-                try {
+            File file = new File(COOKIE_FILE_PATH);
+            FileReader fileReader = new FileReader(file);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            String strline;
+
+            while ((strline = bufferedReader.readLine()) != null) {
+                StringTokenizer token = new StringTokenizer(strline, ";");
+                while (token.hasMoreTokens()) {
+                    String name = token.nextToken();
+                    String value = token.nextToken();
+                    String domain = token.nextToken();
+                    String path = token.nextToken();
+                    Date expiry = null;
+
+                    String val;
+                    if (!(val = token.nextToken()).equals("null")) {
+                    }
+                    Boolean isSecure = Boolean.parseBoolean(token.nextToken());
+
+                    Cookie cookie = new Cookie.Builder(name, value)
+                            .domain(domain)
+                            .path(path)
+                            .expiresOn(expiry)
+                            .isSecure(isSecure)
+                            .build();
+
                     driver.manage().addCookie(cookie);
-                } catch (Exception e) {
-                    System.out.println("Could not add cookie: " + dto.getName() + " - " + e.getMessage());
                 }
             }
-            System.out.println("Cookies loaded successfully.");
-            return true;
-        } catch (IOException e) {
-            System.err.println("Failed to load cookies: " + e.getMessage());
-            return false;
-        }
-    }
+            bufferedReader.close();
+            fileReader.close();
+            System.out.println("Cookies loaded. You are now logged in.");
 
-    public static class CookieDTO {
-        private String name;
-        private String value;
-        private String domain;
-        private String path;
-        private Date expiry;
-        private boolean isSecure;
-        private boolean isHttpOnly;
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getValue() {
-            return value;
-        }
-
-        public void setValue(String value) {
-            this.value = value;
-        }
-
-        public String getDomain() {
-            return domain;
-        }
-
-        public void setDomain(String domain) {
-            this.domain = domain;
-        }
-
-        public String getPath() {
-            return path;
-        }
-
-        public void setPath(String path) {
-            this.path = path;
-        }
-
-        public Date getExpiry() {
-            return expiry;
-        }
-
-        public void setExpiry(Date expiry) {
-            this.expiry = expiry;
-        }
-
-        public boolean isSecure() {
-            return isSecure;
-        }
-
-        public void setSecure(boolean secure) {
-            isSecure = secure;
-        }
-
-        public boolean isHttpOnly() {
-            return isHttpOnly;
-        }
-
-        public void setHttpOnly(boolean httpOnly) {
-            isHttpOnly = httpOnly;
+        } catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 }
